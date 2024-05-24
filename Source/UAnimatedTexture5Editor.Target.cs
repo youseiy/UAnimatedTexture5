@@ -8,7 +8,7 @@ public class UAnimatedTexture5EditorTarget : TargetRules
 	public UAnimatedTexture5EditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.Latest;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "AnimatedTextureDemo" } );
 	}
 }
